@@ -1,0 +1,45 @@
+{
+  "name": "egg-check",
+  "version": "1.0.0",
+  "description": "egg项目审查器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamljw/egg-check.git"
+  },
+  "keywords": [
+    "nodojs",
+    "egg",
+    "check",
+    "developer",
+    "tool"
+  ],
+  "author": "iamljw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamljw/egg-check/issues"
+  },
+  "homepage": "https://github.com/iamljw/egg-check#readme",
+  "bin": {
+    "egg-coding": "bin/egg-check.js"
+  },
+  "preferGlobal": true,
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-egg": "^7.4.1"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.3",
+    "yargs": "^13.2.2"
+  }
+}
